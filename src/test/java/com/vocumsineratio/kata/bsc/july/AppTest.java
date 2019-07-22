@@ -22,6 +22,7 @@ public class AppTest
     }
 
     private String compress() {
-        return "a";
+        String source = "a";
+        return source;
     }
 }
