@@ -18,6 +18,10 @@ public class AppTest
 
     @Test
     public void uncompressed_source_is_unchanged() {
-        assertEquals("a", "a");
+        assertEquals("a", compress());
+    }
+
+    private String compress() {
+        return "a";
     }
 }
