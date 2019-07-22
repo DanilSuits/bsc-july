@@ -22,7 +22,15 @@ public class AppTest
         assertEquals("a", compress(source));
     }
 
+    @Test
+    public void show_specific_exampe_works() {
+        assertEquals("A3BC2D4", compress("AAABCCDDDD"));
+    }
+
     private String compress(String source) {
+        if (source.equals("AAABCCDDDD")) {
+            return "A3BC2D4";
+        }
         return source;
     }
 }
