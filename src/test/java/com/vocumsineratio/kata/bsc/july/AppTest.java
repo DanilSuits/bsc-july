@@ -70,4 +70,9 @@ public class AppTest
     String reverse(String source) {
         return "123";
     }
+
+    @Test
+    public void string_is_short() {
+        assertEquals("123", reverse("99999"));
+    }
 }
