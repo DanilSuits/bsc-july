@@ -54,7 +54,8 @@ public class AppTest
                 return "A3BC2D4";
             }
             if (source.equals("AAA")) {
-                return "A3";
+                String compress = "A3";
+                return compress;
             }
         }
         return source;
