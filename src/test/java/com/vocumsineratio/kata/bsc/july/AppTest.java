@@ -61,7 +61,9 @@ public class AppTest
         return source;
     }
 
-
+    // These bits were from discussions after the exercises
+    // and the group post mortem.  -- DPS
+    
     @Test
     public void reverse_a_string() {
         assertEquals("123", reverse("321"));
