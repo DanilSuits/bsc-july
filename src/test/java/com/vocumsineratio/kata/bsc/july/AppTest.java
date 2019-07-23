@@ -26,6 +26,18 @@ public class AppTest
     public void show_specific_exampe_works() {
         assertEquals("A3BC2D4", compress("AAABCCDDDD"));
     }
+    
+    /*@Test
+    public void test_string_split() {
+        String[] expected = {"AAA", "B", "CC", "DDDD"};
+        assertEquals(expected, string_split("AAABCCDDDD"));
+    }
+
+    private String[] string_split(String source) {
+        return new String[] {"AAA", "B", "CC", "DDDD"} ;
+    }*/
+
+    
 
     private String compress(String source) {
         if (source.equals("AAABCCDDDD")) {
