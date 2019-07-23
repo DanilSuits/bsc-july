@@ -64,10 +64,10 @@ public class AppTest
 
     @Test
     public void reverse_a_string() {
-        assertEquals(null, reverse("321"));
+        assertEquals("123", reverse("321"));
     }
 
     String reverse(String source) {
-        return null;
+        return "123";
     }
 }
