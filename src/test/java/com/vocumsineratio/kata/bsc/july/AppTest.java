@@ -46,7 +46,7 @@ public class AppTest
     private String compress(String source) {
 
         if (source.startsWith("AAA")) {
-            String compress = "A" + "AAA".length();
+            String compress = "AAA".substring(0, 1) + "AAA".length();
             if (source.equals("A3BCCDDDD")) {
                 return "A3BC2D4";
             }
