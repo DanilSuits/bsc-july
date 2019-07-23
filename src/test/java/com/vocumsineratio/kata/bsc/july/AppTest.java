@@ -60,4 +60,14 @@ public class AppTest
         }
         return source;
     }
+
+
+    @Test
+    public void reverse_a_string() {
+        assertEquals(null, reverse("321"));
+    }
+
+    String reverse(String source) {
+        return null;
+    }
 }
