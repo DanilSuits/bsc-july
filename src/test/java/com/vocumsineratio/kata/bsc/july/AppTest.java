@@ -52,7 +52,7 @@ public class AppTest
             }
             
             if (source.equals("AAABCCDDDD")) {
-                return "A3BC2D4";
+                compress = compress + "BC2D4";
             }
             {
                 return compress;
