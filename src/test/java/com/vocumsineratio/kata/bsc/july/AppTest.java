@@ -54,7 +54,7 @@ public class AppTest
             if (source.equals("AAABCCDDDD")) {
                 return "A3BC2D4";
             }
-            if (source.equals("AAA")) {
+            {
                 return compress;
             }
         }
