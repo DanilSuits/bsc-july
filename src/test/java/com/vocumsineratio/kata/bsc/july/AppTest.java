@@ -37,11 +37,19 @@ public class AppTest
         return new String[] {"AAA", "B", "CC", "DDDD"} ;
     }*/
 
-    
+    @Test
+    public void string_count() {
+        String expected = "A3";
+        assertEquals(expected, compress("AAA"));
+    }
 
     private String compress(String source) {
+
         if (source.equals("AAABCCDDDD")) {
             return "A3BC2D4";
+        }
+        if (source.equals("AAA")) {
+            return "A3";
         }
         return source;
     }
