@@ -45,11 +45,13 @@ public class AppTest
 
     private String compress(String source) {
 
-        if (source.equals("AAABCCDDDD")) {
-            return "A3BC2D4";
-        }
-        if (source.equals("AAA")) {
-            return "A3";
+        if (source.startsWith("AAA")) {
+            if (source.equals("AAABCCDDDD")) {
+                return "A3BC2D4";
+            }
+            if (source.equals("AAA")) {
+                return "A3";
+            }
         }
         return source;
     }
